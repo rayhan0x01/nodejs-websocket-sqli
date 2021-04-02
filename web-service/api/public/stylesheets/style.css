@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body{
+    text-align:center;
+    background-color: #131212;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size:26px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style:none;
+}
+#eID{
+    width: 80%;
+    height: 26px;
+    border: 1px solid #000000;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#container{
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: #4fef7d;
+}
+
+a:visited{
+  color: #4fef7d;
+}
+
+.red {
+  color: red;
+}
+
+.lime {
+  color: lime;
+}

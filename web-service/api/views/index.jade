@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title NodeJS WebSocket SQLi vulnerable WebApp
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://code.jquery.com/jquery-2.2.0.min.js')
+    script(src='/javascript/index.js')
+  body
+    h1 Employee List:
+    ul
+        each item in data
+            li
+                p ID: #{item.EmployeeId}, #{item.Email}
+    p Check Employee by ID:
+    input(type="text", placeholder="employee ID", id="eID")
+    br
+    p Result
+    #res-container
+    br
+    footer &lt;/&gt; with &hearts; by 
+        a(href="https://www.twitter.com/rayhan0x01") Rayhan0x01

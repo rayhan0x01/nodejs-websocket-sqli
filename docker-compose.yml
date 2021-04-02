@@ -1,0 +1,17 @@
+services:
+  web:
+    build: ./web-service
+    ports:
+     - "8156:8156"
+    depends_on:
+     - db
+    environment:
+     - DATABASE_HOST=db
+    volumes:
+     - ./web-service/api:/app/api
+  db:
+    build: ./database-service
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 3318:3306
