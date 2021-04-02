@@ -9,7 +9,7 @@ I made this for others to learn and automate SQLi over WebSocket, additionally a
 * Build a script to automate dumping data via Time-based blind SQLi over WebSocket.
 * Build a middle-ware HTTP Server script to relay SQLMap payloads to WebSocket.
 
-Check my blog post where I have shared the last exercise here: https://rayhan0x01.github.io/ctf/2021/02/17/Tale-of-exporting-a-custom-CLR-assembly-DLL.html?v=2
+Check my blog post where I have shared the last exercise here: https://rayhan0x01.github.io/ctf/2021/04/02/blind-sqli-over-websocket-automation.html
 
 
 ## Run
